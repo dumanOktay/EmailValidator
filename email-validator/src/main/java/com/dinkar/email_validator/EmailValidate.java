@@ -17,6 +17,10 @@ public class EmailValidate {
         }
     }
 
+    public void sayHi() {
+
+    }
+
     public boolean isValid(String email) {
         Pattern regexPattern = Pattern.compile("^[(a-zA-Z-0-9-\\_\\+\\.)]+@[(a-z-A-z)]+\\.[(a-zA-z)]{2,3}$");
         Matcher regMatcher = regexPattern.matcher(email);
